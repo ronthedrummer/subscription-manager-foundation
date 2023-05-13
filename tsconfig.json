@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["node_modules/@types", "types"],
+    "types": ["node","jest"],
+    "baseUrl": "./src",
+    "paths": {
+      "@config": ["./config/setup"],
+      "@db": ["./config/db"],
+      "@controllers/*": ["./controllers/*"],
+      "@models/*": ["./models/*"],
+      "@middlewares/*": ["./middlewares/*"],
+      "@helpers/*": ["./helpers/*"],
+      "@routes/*": ["./routes/*"],
+      "@app": ["./app"]
+    }
+  },
+  "include": ["src/**/*.ts","tests/**/*.ts", "./types/global.d.ts","./src",".env", "tests/controllers/user.controller.test.ts__"]   
+}

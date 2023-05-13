@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+config.*.json
+
+# TypeScript build output
+dist/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+.DS_Store

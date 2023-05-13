@@ -1,0 +1,28 @@
+{
+  "url": "http://localhost:3200",
+  "server": {
+    "port": 3200,
+    "host": "127.0.0.1"
+  },
+  "app": {
+    "name": ""
+  },
+  "jwt_secret": "",
+  "jwt_term": "2h",
+  "database": {
+    "mongo_uri": ""
+  },
+  "email": {
+    "from_address": "My App <noreply@myapp.com>"
+  },
+  "mailgun": {
+    "domain": "mail.mydomain.com",
+    "api_key": ""
+  },
+  "organizations": {
+    "enabled": false
+  },
+  "logging": {
+    "transports": ["file", "stdout"]
+  }
+}
